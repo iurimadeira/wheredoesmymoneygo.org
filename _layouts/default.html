@@ -2,37 +2,31 @@
 layout: blank
 ---
 
-
-<header>
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-    <a class="okfn-ribbon" href="http://okfn.org/" title="An Open Knowledge Foundation Project">OKFN</a>
-    <div id="logo">
-      <a href="/">
-        <img src="img/logo.png" alt="{{ site.title }}">
-        <div id="claim">
-          Showing you where your taxes get spent
-        </div>
-      </a>
+    <div class="navbar-header">
+      <a class="navbar-brand">Logo</a>
     </div>
-    <nav>
-      <ul class="nav nav-tabs">
-        <li><a href="about.html">About</a></li>
-        <li><a href="spending.html">Departmental Spending</a></li>
-        <li><a href="bubbletree-map.html">Country &amp; Regional Analysis</a></li>
-        <li><a href="dailybread.html">The Daily Bread</a></li>
+
+    <nav class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="bubbletree-map.html">Formacíon Cívica</a></li>
+        <li><a href="dailybread.html">¿Quiienes Somos?</a></li>
       </ul>
     </nav>
-    <script type="text/javascript">
-      $(function() {
-        $('ul.nav-tabs a').each(function(i,el) {
-          if (window.location.href.indexOf($(el).attr('href')) > 0) {
-        $(el).addClass('active');
-          }
-        });
-      });
-    </script>
+
   </div>
-</header>
+</nav>
+
+<script type="text/javascript">
+  $(function() {
+    $('ul.nav-tabs a').each(function(i,el) {
+      if (window.location.href.indexOf($(el).attr('href')) > 0) {
+    $(el).addClass('active');
+      }
+    });
+  });
+</script>
 
 <div class="container">
   {{ content }}
@@ -41,20 +35,14 @@ layout: blank
 <footer>
   <div class="inner">
     <div class="container">
-      <p>
-        Where Does My Money Go? is based on <a href="http://openspending.org">OpenSpending</a>, where you can also find the 
-        <a href="http://openspending.org/ukgov-finances-cra">source data</a>. <br/>
-        This is an <a href="http://okfn.org">Open Knowledge Foundation</a> project, developed with generous support from 
-        <a href="http://www.channel4.com/programmes/4ip">Channel 4's 4iP</a>.
-      </p>
-
-      <ul class="footer-links span4 pull-left">
-        <li><a href="http://openspending.org">OpenSpending</a></li>
-        <li><a href="http://thedatahub.org">TheDataHub</a></li>
-        <li><a href="http://okfnlabs.org">OKFN Labs</a></li>
-        <li><a href="http://yourtopia.net">YourTopia</a></li>
+      
+      <ul class="footer-links col-md-4 pull-left">
+        <p>Ayúdamos a llegar a más personas</p>
+        <li><a href="http://openspending.org">Donaciones</a></li>
+        <li><a href="http://thedatahub.org">Voluntariado</a></li>
       </ul>
-      <ul class="footer-links span4 pull-left">
+
+      <ul class="footer-links col-md-4 pull-left">
         <li><a href="team.html">Core team</a></li>
         <li><a href="sources.html">Data sources</a> used on this site</li>
         <li><a href="http://openspending.org/help/contact.html">Get in touch</a> and contribute</li>
@@ -62,13 +50,15 @@ layout: blank
         <li><a href="http://okfn.org/privacy-policy/">Privacy Policy</a></li>
       </ul>
 
-      All <a href="http://creativecommons.org/licenses/by/3.0/">content</a>, 
-      <a href="http://www.gnu.org/licenses/agpl.html">code</a> 
-      and <a href="http://opendatacommons.org/licenses/odbl/">data</a> is 
-      openly licensed in accordance with the 
-      <a href="http://opendefinition.org/">open definition</a>.
-      <br/>
-      <a href="http://opendefinition.org"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="Open Content" /></a>
+      <ul class="footer-links col-md-4 pull-left">
+        All <a href="http://creativecommons.org/licenses/by/3.0/">content</a>, 
+        <a href="http://www.gnu.org/licenses/agpl.html">code</a> 
+        and <a href="http://opendatacommons.org/licenses/odbl/">data</a> is 
+        openly licensed in accordance with the 
+        <a href="http://opendefinition.org/">open definition</a>.
+        <br/>
+        <a href="http://opendefinition.org"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="Open Content" /></a>
+      </ul>
     </div>
   </div>
 </footer>
