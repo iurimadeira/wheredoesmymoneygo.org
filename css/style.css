@@ -1,6 +1,6 @@
 
 html {
-  background-color: #222222;
+  background-color: #783c8f;
 }
 
 body {
@@ -88,7 +88,7 @@ footer {
 
 footer > .inner {
   background: url('http://assets.okfn.org/web/images/footer-bevel.png') top repeat-x;
-  padding: 10px 0 30px 0;
+  padding: 30px 0 30px 0;
   color: #fff;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
   min-height: 190px;
