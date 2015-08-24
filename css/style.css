@@ -5,25 +5,7 @@ html {
 
 body {
   min-height: 80%;
-  padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-}
-
-.navbar-fixed-top .nav {
-  padding: 15px 0;
-}
-
-.navbar-fixed-top .navbar-brand {
-  padding: 0 15px;
-}
-
-@media(min-width:768px) {
-  body {
-      padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-  }
-
-  .navbar-fixed-top .navbar-brand {
-      padding: 15px 0;
-  }
+  background-color: #eceff6;
 }
 
 body, p, blockquote p {
@@ -46,14 +28,26 @@ a {
   padding: 10px 0 20px 0;
 }
 
+.gray-box-bubblemap {
+  background-color: #bdbec0;
+  height: 500px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
 .gray-box h3 a {
   color: #fff;
 }
 
 .logo-img{
-  width: 40%;
+  width: 30%;
+  padding-top: 15px;
 }
 
+.navbar-right {
+  padding: 10px 0 10px 0;
+}
 .navbar-brand {
   max-width: 60%;
 }
@@ -127,12 +121,13 @@ footer {
 footer > .inner {
   background: url('http://assets.okfn.org/web/images/footer-bevel.png') top repeat-x;
   padding: 30px 0 30px 0;
-  color: #fff;
+  color: #eceff6;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
   min-height: 190px;
 }
 
-footer ul.footer-links {
+footer ul li{
+  list-style-type: none;
 }
 
 footer a, footer a:hover {
@@ -151,6 +146,8 @@ footer a, footer a:hover {
 
 #dailybread {
   min-height: 20em;
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
 }
 
 #dailbread #db-topbar div h2 {
@@ -208,6 +205,11 @@ footer a, footer a:hover {
 .row .bubbletree-wrapper {
   height: 600px;
   position: relative;
+  background-color: #eceff6; 
+}
+
+.bubbletree {
+  background-color: #eceff6 !important;
 }
 
 #bubbletree {

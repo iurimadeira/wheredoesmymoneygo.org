@@ -6,6 +6,8 @@ title: Country and Regional Analysis
 <script src="{{site.openspendingjs}}/app/bubblemap/bubblemap.js"></script>
 <script src="/img/functions/cofog.js"></script>
 
+<h3 class="page-header">Conoce tu <b>Presupuesto</b></h3>
+
 <script type="text/javascript">
 (function ($) {
   yepnope([
@@ -39,17 +41,30 @@ title: Country and Regional Analysis
 })(jQuery)
 </script>
 
-<div id="wdmmg-bubblemap">
-  <div id="preloader" style="text-align: center; padding: 100px"><img src="/img/ajax-loader.gif" style="vertical-align:top" /> &nbsp;<span class="txt">loading javascript libraries</span></div>
+<h3 class="page-header">Conoce tu <b>Presupuesto</b></h3>
 
-  <div id="wdmmg-bt">
-    <div class="bubbletree-wrapper">
-        <div id="wdmmg-bubbletree" class="bubbletree"></div>
-    </div>  
+<div class="row">
+  <div class="col-md-6">
+    <div id="wdmmg-bubblemap">
+      <div id="preloader" style="text-align: center; padding: 100px"><img src="/img/ajax-loader.gif" style="vertical-align:top" /> &nbsp;<span class="txt">loading javascript libraries</span></div>
+
+      <div id="wdmmg-bt">
+        <div class="bubbletree-wrapper">
+          <div id="wdmmg-bubbletree" class="bubbletree"></div>
+        </div>
+      </div>
+    </div><!-- /#wdmmg-bubblemap -->
   </div>
-  <div id="wdmmg-map-legend" class="under-curtain"></div>
-  <div id="wdmmg-map" class="under-curtain"></div>
-</div><!-- /#wdmmg-bubblemap -->
 
-
-
+  <div class="col-md-6">
+    <div class="gray-box-bubblemap">
+      <h1>PRESUPUESTO</h1>
+      <br>
+      <h3>Ministerio de Salud</h3>
+      <br>
+      <h3>Ministerio de gobernación</h3>
+      <br>
+      <h3>Ministerio de vivienda</h3>
+    </div>
+  </div>
+</div>
