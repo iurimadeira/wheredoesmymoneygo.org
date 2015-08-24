@@ -36,6 +36,10 @@ a {
   text-align: center;
 }
 
+.content-container {
+  padding-top: 50px;
+}
+
 .gray-box h3 a {
   color: #fff;
 }
