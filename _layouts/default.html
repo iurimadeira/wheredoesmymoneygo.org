@@ -4,27 +4,19 @@ layout: blank
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-    <img src="img/logo.png" class="logo-img pull-left" />
+    <a href="/">
+      <img src="img/logo.png" class="logo-img pull-left" />
+    </a>
 
     <nav class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="bubbletree-map.html">Formación Cívica</a></li>
-        <li><a href="dailybread.html">¿Quiienes Somos?</a></li>
+        <li><a href="formacion-civica.html">Formación Cívica</a></li>
+        <li><a href="quienes-somos.html">¿Quienes Somos?</a></li>
       </ul>
     </nav>
 
   </div>
 </nav>
-
-<script type="text/javascript">
-  $(function() {
-    $('ul.nav-tabs a').each(function(i,el) {
-      if (window.location.href.indexOf($(el).attr('href')) > 0) {
-    $(el).addClass('active');
-      }
-    });
-  });
-</script>
 
 <div class="container">
   <div class="content-container">
@@ -34,17 +26,17 @@ layout: blank
   <div class="row spaced">
     <div class="col-md-4">
       <a href="dailybread.html">
-        <img src="img/redbtn.jpg" alt="OpenSpending" class="img-responsive">
+        <img src="img/red.png" alt="OpenSpending" class="img-responsive">
       </a>
     </div>
     <div class="col-md-4">
       <a href="bubbletree-map.html">
-        <img src="img/bluebtn.jpg" alt="OpenSpending" class="img-responsive"/>
+        <img src="img/blue.png" alt="OpenSpending" class="img-responsive"/>
       </a>
     </div>
     <div class="col-md-4">
-      <a href="http://openspending.org">
-        <img src="img/yellowbtn.jpg" alt="OpenSpending" class="img-responsive"/>
+      <a href="dailybread.html">
+        <img src="img/gray.png" alt="OpenSpending" class="img-responsive"/>
       </a>
     </div>
   </div>
@@ -59,24 +51,44 @@ layout: blank
         <p>Ayúdamos a llegar a más personas</p>
         <ul>
           <li>
-            <a href="http://openspending.org">
-              <span class="glyphicon glyphicon-heart"
-                aria-hidden="true"></span> Donaciones
+            <a href="http://www.redciudadana.org/">
+              <img src="img/donaciones.png" style="height: 17px; width: 17px;"> Donaciones
             </a>
           </li>
-          <li><a href="http://thedatahub.org">Voluntariado</a></li>
+          <li>
+            <img src="img/voluntariado.png" style="height: 17px; width: 17px;"> Voluntariado
+          </li>
         </ul>
       </div>
       
       <div class="col-md-4 pull-left">
-        <p>Desarrollado por:</p>
-        <p>Con el apoyo de:</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p>Desarrollado por:</p>
+            <a href="http://www.redciudadana.org/">
+              <img src="img/red-ciudadana-logo.png" class="img-responsive">
+            </a>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p>Con el apoyo de:</p>
+            <a href="https://hivos.org/">
+              <img src="img/hivos-logo.png" class="img-responsive">
+            </a>
+          </div>
+        </div>
+
       </div>
 
       <div class="col-md-4 pull-left">
         <p>Contáctanos</p>
         <ul>
-          <li>Email</li>
+          <li><a href="mailto:info@redciudadana.org" class="hoverless-anchor">Email</a></li>
           <li>12 calle 1-25 zona 10</li>
           <li>Edificio Géminis 10</li>
           <li>Torre Norte Odicina</li>

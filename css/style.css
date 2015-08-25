@@ -81,7 +81,7 @@ a {
 .main-header {
   text-align: center;
   font-weight: normal;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 /* 
@@ -93,6 +93,10 @@ footer,
 footer p {
   font-size: 13px;
   line-height: 18px;
+}
+
+.hoverless-anchor:hover{
+  text-decoration: none;
 }
 
 .navbar-default {
